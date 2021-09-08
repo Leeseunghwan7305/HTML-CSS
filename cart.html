@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="nav-title">
+        <h3>Your shopping cart</h3>
+      </div>
+      <div class="nav-table">
+        <div class="table-nav">
+          <div class="table-left">
+            <span>ITEM</span>
+          </div>
+          <div class="table-right">
+            <ul>
+              <li>AMOUNT</li>
+              <li>PRICE</li>
+              <li>TOTAL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item1">
+          <div class="item1-left">
+            <div>
+              <img
+                class="image"
+                src="https://littledeep.com/wp-content/uploads/2019/04/littledeep_illustration_camera_style1.png"
+              />
+            </div>
+            <div class="item-name">
+              <span>SONY</span>
+              <span>FE 70-200 mm F2.8GM OSS</span>
+            </div>
+          </div>
+          <div class="item1-right">
+            <span>1</span><span>1979.00</span><span>1979.00</span>
+          </div>
+        </div>
+        <div class="item2">
+          <div class="item2-left">
+            <div>
+              <img
+                class="image"
+                src="https://img.lovepik.com/original_origin_pic/18/12/08/981c51a38514e231544519562ab3f8b8.png_wh860.png"
+              />
+            </div>
+            <div class="item-name2">
+              <span>SONY</span>
+              <span>FE 70-200 mm F2.8GM OSS</span>
+            </div>
+          </div>
+          <div class="item2-right">
+            <span>1</span><span>1979.00</span><span>1979.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <a>Edit your shopping cart</a>
+        <button>Choose payment method</button>
+      </div>
+    </div>
+    <style>
+      body {
+        background-color: aquamarine;
+        padding: 50px;
+      }
+      .button {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      button {
+        padding: 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+      }
+      .table-nav {
+        display: flex;
+        border-bottom: 1px solid blue;
+      }
+      .table-right ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+      }
+      .table-right {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .table-right li {
+        margin-right: 50px;
+      }
+      .table-left {
+        padding: 15px;
+        width: 50%;
+        text-align: center;
+      }
+      .nav-table {
+        background-color: white;
+      }
+      .image {
+        height: 100px;
+        width: 100px;
+      }
+      .item1 {
+        display: flex;
+        padding: 15px;
+        justify-content: space-around;
+      }
+      .item2-left {
+        display: flex;
+      }
+      .item1-left {
+        display: flex;
+      }
+      .item2 {
+        display: flex;
+        padding: 15px;
+        justify-content: space-around;
+      }
+      .item-name {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .item-name2 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </body>
+</html>

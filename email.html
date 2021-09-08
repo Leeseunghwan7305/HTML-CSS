@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="email">
+        <div class="email-head">
+          <h1>Contact us</h1>
+        </div>
+        <div class="your-email">
+          <p>Your Email</p>
+          <input
+            type="email"
+            class="email-form"
+            placeholder="email@example.com"
+          />
+        </div>
+      </div>
+      <div class="name">
+        <div class="first-name">
+          <p>First name</p>
+          <input type="name" />
+        </div>
+        <div class="last-name">
+          <p>Last name</p>
+          <input type="name" />
+        </div>
+      </div>
+      <div class="message">
+        <p>Message</p>
+        <textarea></textarea>
+      </div>
+      <div class="send">
+        <div class="subscribe">
+          <div class="empty-box"></div>
+          <p>Subscribe</p>
+        </div>
+        <div class="button">
+          <button type="submmit">SEND</button>
+        </div>
+      </div>
+    </div>
+    <style>
+      body {
+        background-color: black;
+        margin-top: 30px;
+      }
+      .name {
+        display: flex;
+      }
+      .all input {
+        padding: 10px;
+        width: 90%;
+      }
+      .name input {
+        width: 80%;
+      }
+      .all h1 {
+        margin-top: 3px;
+      }
+      .all {
+        background-color: #eee;
+        width: 50%;
+        margin: auto;
+        padding: 15px;
+      }
+      .send {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .send button {
+        padding: 15px 40px;
+        margin-top: 15px;
+        background-color: orange;
+        color: white;
+        border: none;
+      }
+      .subscribe {
+        display: flex;
+        align-items: center;
+      }
+      .empty-box {
+        height: 10px;
+        width: 10px;
+        background-color: gray;
+        margin-right: 10px;
+        border-radius: 2px;
+        margin-top: 4px;
+      }
+      .send p {
+        margin-top: 20px;
+        opacity: 0.6;
+      }
+    </style>
+  </body>
+</html>
