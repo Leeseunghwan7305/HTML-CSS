@@ -66,11 +66,83 @@
         />
       </div>
     </div>
+    <div class="shoes-images">
+      <div class="shoes-image">
+        <div class="overs">
+          <div class="overss"><p>$60달러</p><p>지금 품절 임박</p></div>
+        <img src="product1-1.jpg" />
+      </div>
+      </div>
+    <div class="shoes-image">
+      <div class="overs">
+        <div class="over-box">
+          <p>$60달러</p>
+        </div>
+      <img src="product2.jpg" />
+    </div>
+    </div>
+      <div class="shoes-image">
+        <div class="overs">
+          <div class="over-box"><p>$80달러</p></div>
+        <img src="product3.jpg" />
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
   </body>
   <style>
     body {
       margin: 0;
       padding: 0;
+    }
+    .overss{
+      position:absolute;
+      width:100%;
+      height:150px;
+      background-color:black;
+      overflow:hidden;
+      margin-top:300px;
+      transition :all 1s;
+    }
+    .
+    .over-box {
+      background-color: black;
+      position: absolute;
+      width: 100%;
+      height:100%;
+      opacity:0;
+      transition:all 1s;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+    }
+    
+    .over-box p{
+      color:white;
+      font-size:33px;
+      margin-bottom:200px;
+    }
+    .over-box:hover{
+      opacity:0.8;
+
+    }
+    .overs {
+      position: relative;
+    }
+    .shoes-images {
+      display: flex;
+      width: 100%;
+      background-color: grey;
+    }
+    .shoes-image {
+      width: 33.3%;
+      padding: 20px;
+    }
+    .shoes-image img {
+      width: 100%;
     }
     .background-box {
       background-color: #eee;
