@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1200px;
+      }
+      .person {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+      }
+      .person div {
+        height: 8px;
+        width: 50px;
+        background-color: black;
+        border-radius: 20px;
+        margin: auto;
+      }
+      .person span,
+      h1,
+      button {
+        margin: 10px auto;
+      }
+      .person button {
+        padding: 15px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+      @media screen and (max-width: 568px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+        .person {
+          width: 100%;
+        }
+      }
+      .person img {
+        width: 50%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="person">
+        <img src="person.png" />
+        <h1>Single</h1>
+        <div></div>
+        <span>Free e-Books</span>
+        <span>Free Lecture</span>
+        <span>Free Service</span>
+        <span>Free Update</span>
+        <h1>$60</h1>
+        <button>Order Now</button>
+      </div>
+      <div class="person">
+        <img src="person2.png" />
+        <h1>Single</h1>
+        <div></div>
+        <span>Free e-Books</span>
+        <span>Free Lecture</span>
+        <span>Free Service</span>
+        <span>Free Update</span>
+        <h1>$60</h1>
+        <button>Order Now</button>
+      </div>
+      <div class="person">
+        <img src="person3.png" />
+        <h1>Single</h1>
+        <div></div>
+        <span>Free e-Books</span>
+        <span>Free Lecture</span>
+        <span>Free Service</span>
+        <span>Free Update</span>
+        <h1>$60</h1>
+        <button>Order Now</button>
+      </div>
+      <div class="person">
+        <img src="person4.png" />
+        <h1>Single</h1>
+        <div></div>
+        <span>Free e-Books</span>
+        <span>Free Lecture</span>
+        <span>Free Service</span>
+        <span>Free Update</span>
+        <h1>$60</h1>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </body>
+</html>
