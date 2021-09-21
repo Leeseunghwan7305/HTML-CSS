@@ -52,16 +52,28 @@
         border-bottom: 1px solid grey;
       }
       .nav-title input {
-        width: 130px;
+        width: 140px;
         padding: 15px;
-        border-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
         transition: 1s all;
       }
       .nav-title-left {
-        position: relative;
+        display: flex;
       }
       .nav-title-left-icon {
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        color: white;
+        display: flex;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
       }
+
       .nav-title input:focus {
         width: 300px;
       }
@@ -73,15 +85,16 @@
         color: red;
       }
       .nav-icon {
-        margin-right: 25px;
       }
     </style>
   </head>
   <body>
     <nav class="nav-title">
-      <div cass="nav-title-left">
+      <div class="nav-title-left">
         <input type="text" placeholder="Search" />
-        <div class="nav-title-left-icon"></div>
+        <div class="nav-title-left-icon">
+          <i class="fas fa-home menu-icon nav-icon"></i>
+        </div>
       </div>
       <div class="nav-icons">
         <i class="fas fa-home menu-icon nav-icon"></i>
